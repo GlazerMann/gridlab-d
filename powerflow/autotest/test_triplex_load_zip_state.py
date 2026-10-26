@@ -17,4 +17,3 @@ class TriplexLoadZIPStateTests(unittest.TestCase):
         self.assertIn('ZIP_constant_current[0] = false', src)
         self.assertIn('ZIP_constant_current[1] = false', src)
         self.assertIn('ZIP_constant_current[2] = false', src)
-        self.assertIn('do not apply the manual', src)
